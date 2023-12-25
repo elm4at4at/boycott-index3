@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border;
+  }
+  html {
+     scroll-behavior: smooth;
+  }
+
+  body {
+    font-family:'Quicksand', sans-serif;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+
+  /* utility classes */
+ .primary-text {
+    color: red;
+ }
+ .btn {
+    display: inline-block;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 15px;
+ }
+
+ .btn-primary{
+    color: white;
+    border: 500px solid white;
+ }
+
+ .btn-primary:hover{
+   background: green;
+ }
+
+  /* header start */
+
+  header{
+    height: 100vh;
+    background: url('./img/background photo.jpg') center center/cover no-repeat;
+    position: relative;
+  }
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    /*background-color: black;*/
+    background: rgb(0, 0, 0, 0.2)
+}
+
+  #navbar img{
+    width: 100px;
+    margin-left: 0px;
+  }
+
+  #navbar ul{
+    display: flex;
+    margin-right: 0px;
+  }
+
+  #navbar ul li a{
+    padding: 5px 15px;
+    color: white;
+    font-weight: 600;
+    font-size:small;
+  }
+
+  #navbar ul li a:hover{
+    border-bottom: 5px solid green;
+  }
+
+  header .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75%;
+  }
+
+  header .content h1{
+    color: white;
+    font-size: 40px;
+  }
+
+  header .content p{
+    margin: 20px 0 40px;
+    color: white;
+  }
+
+ header .content a{
+    color: white;
+    border-bottom: 3px solid white;
+  }
+
+  header::before{
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgb(0, 0, 0, 0.7)
+  }
+
+ header * {
+    z-index: 10;
+ }
+  
+  /* header end */
+
+
+
+
+
+  /* idea of boycotting begining*/
+  
+.container {
+  background: #720303ab;
+  max-width: 1100px;
+  max-height: fit-content;
+  margin: auto;
+}
+/* About start */
+#about {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+#about .title {
+  text-align: center;
+  margin-top: 4rem;
+  
+}
+#about h2 {
+  font-size: 40px;
+  color: #f4f4f4;
+  margin-bottom: 20px;
+  
+
+}
+#about , title p {
+  font-size: 14px;
+  color: #9a9a9a;
+  font-weight: 600;
+
+}
+#about .about-content{
+  display:flex;
+  justify-content: space-between;
+
+}
+#about .about-content img{
+  width: 400px;
+  
+}
+#about .about-content p{
+  color: #f4f4f4;
+  margin-right: 7rem;
+  font-weight: 500;
+  line-height: 1.3;
+  text-align: left;
+  word-spacing: 2px;
+  
+}
+.btn{
+  display: inline-block;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 15px;
+}
+.btn-secodary {
+  color: #383848;
+  background: #f4f4f4;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.btn-secodary:hover {
+  background: #f4f4f4;
+}
+/* idea of boycotting ending*/
+
+
+
+
+/*why begining*/
+
+
+
+/*why ending*/
+

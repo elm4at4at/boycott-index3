@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+  
+  body {
+    font-family: 'Quicksand', sans-serif;
+background-color:rgba(128, 128, 128, 0.858);
+
+  }
+
+  /*menu start*/
+
+  ul {
+    list-style: none;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+/* header start */
+ #navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    /*background-color: black;*/
+    background: rgb(0, 0, 0, 0.8)
+}
+
+  #navbar img{
+    width: 100px;
+    margin-left: 0px;
+  }
+
+  #navbar ul{
+    display: flex;
+    margin-right: 0px;
+  }
+
+  #navbar ul li a{
+    padding: 5px 15px;
+    color: white;
+    font-weight: 600;
+    font-size:small;
+  }
+
+  #navbar ul li a:hover{
+    border-bottom: 5px solid green;
+  }
+
+  
+  /* header end */
+  
+  /*menu end*/
+    
+    
+    skin-care{
+        background: rgba(128, 128, 128, 0.736);
+        padding: 2rem 0;
+    }
+    #skin-care .title {
+        text-align: center;
+        font-size: xx-large;
+        margin-bottom: 3rem;
+    }
+    #skin-care h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+    }
+    #skin-care h1 {
+        color: darkred;
+        font-size: 300%;
+    }
+    #skin-care h3{
+        color: darkred;
+    }
+    #skin-care .title p {
+        font-size: 28px;
+        font-weight: 300;
+        color:black;
+    }
+    
+    #skin-care .products {
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    #skin-care .products .product img {
+    width:200px
+    height=200px
+    
+    
+    }
+    #skin-care .products .product {
+        font-size: 23PX;
+        margin: 100PX;
+    }
+     #boycott {
+        color: darkred;
+        font-size: xx-large;
+    }
+     #substitution {
+        color: darkgreen;
+        font-size:xx-large;
+    }

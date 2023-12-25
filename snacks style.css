@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border;
+  }
+  html {
+     scroll-behavior: smooth;
+  }
+
+  body {
+    font-family:'Quicksand', sans-serif;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+
+Selector{
+    property: value;
+}
+
+ p {
+    color: black;
+    font-size: 30px;
+ }
+ h2 {
+    color: red;
+    font: size 70px; ;
+ }
+ 
+ h1 {
+    color: brown;
+ }
+ h2 {
+    color: brown;
+    font-size: 50px;
+font-style: italic;;
+ }
+ div{
+   background-color: rgb(188, 188, 188);
+ }
+ body {
+   background-color: rgb(107, 107, 107);
+
+ } 
+
+ /*menu start*/
+
+  ul {
+    list-style: none;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+/* header start */
+ #navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    /*background-color: black;*/
+    background: rgb(0, 0, 0, 0.8)
+}
+
+  #navbar img{
+    width: 100px;
+    margin-left: 0px;
+  }
+
+  #navbar ul{
+    display: flex;
+    margin-right: 0px;
+  }
+
+  #navbar ul li a{
+    padding: 5px 15px;
+    color: white;
+    font-weight: 600;
+    font-size:small;
+  }
+
+  #navbar ul li a:hover{
+    border-bottom: 5px solid green;
+  }
+
+  
+  /* header end */
+  
+  /*menu end*/

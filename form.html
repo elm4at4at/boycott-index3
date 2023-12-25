@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+     <!--favicon-->
+     <link rel="apple-touch-icon" sizes="180x180" href="/img/android-chrome-192x192.png">
+     <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+     <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+     <link rel="manifest" href="/img/favicon.ico">
+     <!--favicon end-->
+     
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background: url('./img/background\ photo.jpg') no-repeat center center fixed; 
+            background-size: cover;
+        }
+
+        .form-container {
+            background-color: darkgrey;
+            padding: 20px;
+            border-radius: 8px;
+            width: 300px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        .error {
+            color: red;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <form id="donationForm">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="">--Select Gender--</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="amount">Amount of Money:</label>
+                <input type="number" id="amount" name="amount" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email (Gmail):</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <button type="button" onclick="submitForm()">Donate</button>
+            <div id="error" class="error"></div>
+        </form>
+    </div>
+
+    <script>
+        function submitForm() {
+            var name = document.getElementById('name').value;
+            var gender = document.getElementById('gender').value;
+            var amount = document.getElementById('amount').value;
+            var email = document.getElementById('email').value;
+
+            if (name === '' || gender === '' || amount === '' || email === '') {
+                document.getElementById('error').innerText = 'Please enter your full information';
+                return;
+            }
+
+            alert('Thank you for the donation');
+            
+            // Replace 'yourpage.html' with the file name you want to redirect to
+            window.location.href = 'index3.html';
+        }
+    </script>
+</body>
+</html>

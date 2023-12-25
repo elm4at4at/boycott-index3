@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+#boycott {
+    padding: 4rem 0;
+    background-color: rgb(128, 128, 128, 0.858);
+    }
+    
+    #boycott .title {
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+    
+    #boycott h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    
+    #boycott h1 {
+        color: #040012;
+    }
+    
+    #boycott .title p {
+        font-size: 24px;
+        font-weight: 400;
+        color: rgb(1, 20, 24)
+    }
+    
+    #boycott .platforms {
+        display: flex;
+        justify-content: center 
+    }
+    
+    #boycott .platforms .platform {
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        font-size: 20px;
+        margin: 90px;
+    }
+    
+    #boycott .platforms .platform img {
+        width: 450px;
+        border-radius: 20%;
+        margin-right: 90px;
+        margin-bottom: 65px;
+        margin-top: 30px;
+    }
+    
+    #boycott .platforms .platform h3 {
+        color: rgb(24, 24, 25);
+        border-radius: 1px  #ffffff;
+        font-weight: 1000;
+        font-size: 29px;
+        margin: 20px;
+        margin-top: -30px;
+        margin-bottom: -2px;
+    }
+    
+    #boycott .platforms .platform p {
+        font-size: 25px;
+        display: flex;
+        margin-right: 90px;
+    }
+    
+    #no {
+        color: #e70e0e;
+        font-weight: 800;
+    }
+    
+    #yes {
+        color: rgb(18, 137, 7);
+        font-weight: 800;
+        margin-bottom: -20px;
+    
+    }
+
+    /*menu start*/
+
+  ul {
+    list-style: none;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+/* header start */
+ #navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    /*background-color: black;*/
+    background: rgb(0, 0, 0, 0.8)
+}
+
+  #navbar img{
+    width: 100px;
+    margin-left: 0px;
+  }
+
+  #navbar ul{
+    display: flex;
+    margin-right: 0px;
+  }
+
+  #navbar ul li a{
+    padding: 5px 15px;
+    color: white;
+    font-weight: 600;
+    font-size:small;
+  }
+
+  #navbar ul li a:hover{
+    border-bottom: 5px solid green;
+  }
+
+  
+  /* header end */
+  
+  /*menu end*/
